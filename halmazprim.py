@@ -9,3 +9,4 @@ for p in range(2,szam+1):
 
 print(primes)
 
+
