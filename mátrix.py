@@ -1,4 +1,4 @@
-import numpy as np
+import tomb as np
 def valami(m,n):
     c=0
     for i in range(0,len(m)):
