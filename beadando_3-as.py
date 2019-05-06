@@ -12,15 +12,11 @@ def prim(a):
 
 
 def lnkpo(a, b):
-    if a < b:
-        c = a
-    else:
-        c = b
 
-    for i in range(c, 1, -1):
+    for i in range(b, 1, -1):
         if a % i == 0 and b % i == 0:
             if prim(i):
                 return i
 
 
-print(lnkpo(17,34))
+print(lnkpo(15124,12))
