@@ -1,5 +1,5 @@
 
-import tomb as np
+import numpy as np
 n=np.random.randint(1,5,(2,4))
 m=np.random.randint(1,5,(4,3))
 print(n)
