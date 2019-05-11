@@ -1,5 +1,0 @@
-s1 = input('Give the (x,y) coordinates of the first point: ')
-s2 = input('Give the (x,y) coordinates of the second point: ')
-x1,y1 = s1.split()
-x2,y2 = s2.split()
-print('The Euclidean distance between ({},{}) and ({},{}) points is {:.3f}'.format(x1,y1,x2,y2,(int(x1),int(y1),int(x2),int(y2))))
