@@ -19,4 +19,4 @@ def lnkpo(a, b):
                 return i
 
 
-print(lnkpo(77,110))
+print(lnkpo(4,8))
