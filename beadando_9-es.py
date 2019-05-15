@@ -13,8 +13,7 @@ def matrixszorzas(n1,n2,n3,n4):
     mat2 = np.random.randint(1,5,(n3,n4))
     print(mat2)
 
-    eredm = np.random.randint(0,1,(n1,n4))
-    print(eredm)
+    eredm = np.random.randint(1,5,(n1,n4))
 
     for k in range(n1):
         for i in range(n4):

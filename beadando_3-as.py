@@ -1,5 +1,5 @@
 def prim(a):
-    if a <= 1:
+    if a <=1:
         return False
     if a == 2:
         return True
@@ -15,8 +15,8 @@ def lnkpo(a, b):
 
     for i in range(b, 1, -1):
         if a % i == 0 and b % i == 0:
-            if prim(i):
+            if prim(i)==True:
                 return i
 
 
-print(lnkpo(8,6))
+print(lnkpo(123456,78932))
